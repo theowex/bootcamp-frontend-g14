@@ -19,7 +19,7 @@ main {
 .photo {
     background-color: greenyellow;
     width: 300px;
-    background-image: url(./guide/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-image: url(./images/image-product-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 14px 0 0 14px;
