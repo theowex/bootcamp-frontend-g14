@@ -109,9 +109,9 @@ img {
     min-width: 220px;
     color: var(--neutral-white);
     background: linear-gradient(90deg,
-     var(--accent-cyan-gradient) 0%,
-     var(--accent-blue-gradient) 35%
-     )
+        var(--accent-cyan-gradient) 0%,
+        var(--accent-blue-gradient) 35%
+    )
 }
 
 .features {
@@ -183,8 +183,7 @@ img {
 
 .testimonials {
     display: flex;
-    padding: 0 3rem;
-    padding-top: 8rem;
+    padding: 8rem 3rem;
     background-color: var(--primary-dark-blue-main);
     gap: 2.5rem;
     justify-content: center;
@@ -216,4 +215,73 @@ img {
 
 .testimonial__profile h5 {
     font-weight: var(--font-weight-regular);
+}
+
+.access {
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(
+        to bottom,
+        var(--primary-dark-blue-main) 0%,
+        var(--primary-dark-blue-main) 50%,
+        var(--primary-dark-blue-footer) 50%,
+        var(--primary-dark-blue-footer) 100%
+    );
+
+    display: flex;
+    justify-content: center;
+} 
+
+.access__card {
+    background-color: var(--primary-dark-blue-into);
+    padding: 2rem;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 3px black;
+}
+
+.access__title {
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: 2rem;
+}
+
+.access__form {
+    display: flex;
+    gap: 2rem
+}
+
+.access__text {
+    font-family: var(--font-secondary);
+}
+
+.access__email {
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-bold);
+    border: none;
+    border-radius: 7rem;
+    padding: 1rem 1.5rem;
+    line-height: 1.5;
+    min-width: 400px;
+    color: var(--neutral-white);
+    background: var(--neutral-white)
+}
+
+.access__button {
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-bold);
+    border: none;
+    border-radius: 7rem;
+    padding: 1rem 1.5rem;
+    line-height: 1.5;
+    min-width: 220px;
+    color: var(--neutral-white);
+    background: linear-gradient(90deg,
+        var(--accent-cyan-gradient) 0%,
+        var(--accent-blue-gradient) 35%
+    )
 }
