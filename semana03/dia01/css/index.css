@@ -285,3 +285,70 @@ img {
         var(--accent-blue-gradient) 35%
     )
 }
+
+.footer {
+    background-color: var(--primary-dark-blue-footer);
+    padding: 1rem 7rem 8rem;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.footer__location {
+    width: 23rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer__location p {
+    font-family: var(--font-secondary);
+}
+
+.footer__contact {
+    font-family: var(--font-secondary);
+    text-align: center;
+}
+
+.footer__contact ul {
+    padding-left: 0;
+}
+
+.footer__contact ul li {
+    display: flex;
+    list-style: none;
+    font-family: var(--font-secondary);
+    gap: 1rem;
+    padding-bottom: 15px;
+
+}
+
+.list__title {
+    font-family: var(--font-secondary);
+    font-weight: var(--font-size);
+    font-size: 1rem;
+
+}
+
+.footer__about {
+    font-family: var(--font-secondary);
+}
+
+.footer__about ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer__disclaimer {
+    font-family: var(--font-secondary);
+}
+
+.footer__disclaimer ul {
+    list-style: none;
+    padding-left: 0;
+}
